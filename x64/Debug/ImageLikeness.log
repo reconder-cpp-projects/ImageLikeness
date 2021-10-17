@@ -1,2 +1,7 @@
 ﻿  ImageLikeness.cpp
-  ImageLikeness.vcxproj -> D:\CODE\C++ Projects\ImageLikeness\x64\Debug\ImageLikeness.exe
+D:\CODE\C++ Projects\ImageLikeness\ImageLikeness\ImageLikeness.cpp(40,20): warning C4244: 'initializing': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=uint64
+          ]
+  ImageLikeness.vcxproj -> D:\CODE\C++ Projects\ImageLikeness\ImageLikeness\x64\Debug\ImageLikeness.exe
