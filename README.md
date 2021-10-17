@@ -13,12 +13,14 @@
 4. Поставить OPENCV_ENABLE_NONFREE = true, BUILD_opencv_world = true
 5. По желанию отключить BUILD_opencv_python2, BUILD_opencv_python3, BUILD_opencv_java
 6. Добавить в конфиг string OpenCV_RUNTIME = vc16
-7. Нажать "Configure" и "Generate" 6. Собрать релиз или дебаг:
+7. Нажать "Configure" и "Generate" 
+8. Собрать релиз или дебаг:
    cmake.exe --build . --config Debug --target INSTALL
    cmake.exe --build . --config Release --target INSTALL
 8. Добавить {папка OpenCV}/build/install/x64/vc16/bin в PATH
 
 В проекте Visual Studio установлено:
+
 Project -> Properties -> Configuration Properties -> VC++ Directories -> Include Directories добавить {папка OpenCV}/build/install/include
 
 Project -> Properties -> Configuration Properties -> VC++ Directories -> Library Directories добавить {папка OpenCV}/build/install/x64/vc16/lib
